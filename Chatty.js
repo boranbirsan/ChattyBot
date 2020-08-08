@@ -22,6 +22,6 @@ client.on('message', (receivedMessage) => {
     receivedMessage.channel.send("Message received from " + receivedMessage.author.toString() + ": " + receivedMessage.content)
 })
 
-const bot_secret_token = "NzQxNzMxMjIwODIzNzM2Mzcw.Xy71Bw.TynnlTihgnBM7M82xXa0LZIwMnA";
+const bot_secret_token = "STUPIDTOKEN";
 
 client.login(bot_secret_token);
